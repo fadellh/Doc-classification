@@ -1,0 +1,5 @@
+development.env
+node_modules/
+production.env
+test.env
+coverage/
