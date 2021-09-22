@@ -1,0 +1,287 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+      "title": "Document Classification API",
+      "description": "OpenAPI for Document Classification",
+      "version": "1.0.0",
+      "contact": {
+          "name": "Fadel Lukman H",
+          "email": "fadel.lukman.dev@gmail.com"
+      },
+      "license": {
+          "name": "APACHE 2.0"
+      }
+  },
+  "servers": [
+      {
+      "url": "https://{env}.tamanbermain.com/api/v1",
+      "variables": {
+          "env":{
+              "description": "Server Environtment",
+              "default": "dev",
+              "enum": [
+                  "dev",
+                  "qa",
+                  "prod"
+              ]
+          }
+      }
+      }
+],
+"externalDocs": {
+    "description": "google",
+    "url": "https://www.google.com"
+},
+  "paths": {
+      "/doclist":{
+          "get":{
+            "summary": "Get All doclist",
+            "description": "Get all active doclist by default",
+            "parameters": [
+                {
+                    "name": "include done",
+                    "in": "query",
+                    "required": false,
+                    "schema":{
+                        "type": "boolean",
+                        "nullable":true,
+                        "default":false
+                    }
+                },
+                {
+                    "name": "name",
+                    "in": "query",
+                    "required": false,
+                    "description": "Filter doclist by name",
+                    "schema":{
+                        "type": "string",
+                        "nullable": false,
+                        "minLength": 1,
+                        "maxLength": 100
+                    },
+                    "examples":{
+                        "Matemamatika":{
+                            "value":"Matematika"
+                        }
+                    }
+                }
+            ],
+            "responses": {
+               "200":{
+                   "description": "Success get all doclist",
+                   "content": {
+                       "application/json":{
+                           "schema":{
+                               "type":"array",
+                               "items":{
+                                "type": "object",
+                                "properties": {
+                                    "id":{
+                                        "type": "string"
+                                    },
+                                    "name":{
+                                        "type": "string"
+                                    },
+                                    "priority":{
+                                        "type": "number",
+                                        "format": "int32"
+                                    },
+                                    "tags":{
+                                        "type": "array",
+                                        "items":{
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                               }
+
+                           },
+                           "examples":{
+                               "success":{
+                                   "description": "Example success get all doclist",
+                                   "value":[
+                                       {
+                                           "id":"1",
+                                           "name":"Matematika",
+                                           "priority":3,
+                                           "tags":[
+                                               "Sekolah",
+                                               "Les"
+                                           ]
+                                       },
+                                       {
+                                        "id":"2",
+                                        "name":"Biologi",
+                                        "priority":2,
+                                        "tags":[
+                                            "Sekolah",
+                                            "Les"
+                                        ]
+                                    }
+                                   ]
+                               }
+                           }
+
+                       }
+                   }
+               } 
+            }
+          },
+          "post":{
+            "summary": "Create New doclist",
+            "description": "Create new doclist by default",
+            "requestBody":{
+                "required": true,
+                "content": {
+                    "application/json":{
+                        "schema":{
+                            "type": "object",
+                            "properties": {
+                                "name":{
+                                    "type": "string",
+                                    "minLength": 1
+                                },
+                                "priority":{
+                                    "type": "integer",
+                                    "format": "int32",
+                                    "default":1
+                                },
+                                "tags":{
+                                    "type": "array",
+                                    "minItems": 1,
+                                    "items":{
+                                        "type": "string",
+                                        "minLength": 1
+                                    }
+                                }
+                            }
+                        },
+                        "examples": {
+                            "Matematika":{
+                                "description": "Example create doclist",
+                                "value":{
+                                    "name":"Matematika",
+                                    "priority":3,
+                                    "tags":[
+                                        "Sekolah",
+                                        "Les"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+
+            "responses": {
+                "200":{
+                    "description": "Success post"
+                }
+            }
+          }
+      },
+      "/doclist/{doclistId}":{
+          "put":{
+            "summary": "Upate Existing doclist",
+            "description": "Upate Existing doclist by default",
+            "parameters": [
+                {
+                    "name": "doclistId",
+                    "in": "path",
+                    "required": true,
+                    "description": "doclist id for update",
+                    "schema":{
+                        "type": "string",
+                        "nullable": false,
+                        "minLength": 1,
+                        "maxLength": 100
+                    }
+                }
+            ],
+            "responses": {
+                "200":{
+                    "description": "Success get all doclist",
+                    "content": {
+                        "application/json":{
+                            "schema":{
+                                "type":"array",
+                                "items":{
+                                 "type": "object",
+                                 "properties": {
+                                     "id":{
+                                         "type": "string"
+                                     },
+                                     "name":{
+                                         "type": "string"
+                                     },
+                                     "priority":{
+                                         "type": "number",
+                                         "format": "int32"
+                                     },
+                                     "tags":{
+                                         "type": "array",
+                                         "items":{
+                                             "type": "string"
+                                         }
+                                     }
+                                 }
+                                }
+ 
+                            },
+                            "examples":{
+                                "success":{
+                                    "description": "Example success get all doclist",
+                                    "value":[
+                                        {
+                                            "id":"1",
+                                            "name":"Matematika",
+                                            "priority":3,
+                                            "tags":[
+                                                "Sekolah",
+                                                "Les"
+                                            ]
+                                        },
+                                        {
+                                         "id":"2",
+                                         "name":"Biologi",
+                                         "priority":2,
+                                         "tags":[
+                                             "Sekolah",
+                                             "Les"
+                                         ]
+                                     }
+                                    ]
+                                }
+                            }
+ 
+                        }
+                    }
+                } 
+            }
+          },
+          "delete":{
+            "summary": "Delete Existing doclist",
+            "description": "Delete Existing doclist by default",
+            "parameters": [
+                {
+                    "name": "doclistId",
+                    "in": "path",
+                    "required": true,
+                    "description": "doclist id for delete",
+                    "schema":{
+                        "type": "string",
+                        "nullable": false,
+                        "minLength": 1,
+                        "maxLength": 100
+                    }
+                }
+            ],
+            "responses": {
+                "200":{
+                    "description": "Success delete"
+                }
+            }
+          }
+      }
+  }
+}
