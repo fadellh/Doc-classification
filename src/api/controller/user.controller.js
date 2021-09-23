@@ -1,6 +1,6 @@
-const {log} = require('../log/log')
-const {checkUser} = require('../query/userquery')
-const {generateToken} = require('../helper/jwt')
+const {log} = require('../../log/log')
+const {checkUser} = require('./user.query')
+const {generateToken} = require('../../helper/jwt')
 
 module.exports = {
     login: async (req, res) => {

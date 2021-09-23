@@ -1,0 +1,48 @@
+info: 2021-09-23 08:29:07.568 [message]: C:\Users\LENOVO\Documents\MyRepository\Doc-classification\Doc-classification\src\undefined.env
+info: 2021-09-23 08:29:07.744 [message]: Development App
+info: 2021-09-23 08:29:52.124 [message]: C:\Users\LENOVO\Documents\MyRepository\Doc-classification\Doc-classification\src\undefined.env
+info: 2021-09-23 08:29:52.255 [message]: Development App
+info: 2021-09-23 08:30:28.222 [message]: C:\Users\LENOVO\Documents\MyRepository\Doc-classification\Doc-classification\src\undefined.env
+info: 2021-09-23 08:30:28.436 [message]: Development App
+info: 2021-09-23 08:30:53.113 [message]: C:\Users\LENOVO\Documents\MyRepository\Doc-classification\Doc-classification\src\undefined.env
+info: 2021-09-23 08:30:53.250 [message]: Development App
+info: 2021-09-23 08:31:08.211 [message]: C:\Users\LENOVO\Documents\MyRepository\Doc-classification\Doc-classification\src\undefined.env
+info: 2021-09-23 08:31:08.348 [message]: Development App
+info: 2021-09-23 08:31:24.520 [message]: C:\Users\LENOVO\Documents\MyRepository\Doc-classification\Doc-classification\src\undefined.env
+info: 2021-09-23 08:31:24.654 [message]: Development App
+info: 2021-09-23 08:31:38.309 [message]: C:\Users\LENOVO\Documents\MyRepository\Doc-classification\Doc-classification\src\undefined.env
+info: 2021-09-23 08:31:38.441 [message]: Development App
+error: 2021-09-23 08:31:41.923 [message]: Database Connection Failed! Bad Config:  The "config.server" property is required and must be of type string.
+error: 2021-09-23 08:31:41.924 [message]: Database Connection Failed! Bad Config:  The "config.server" property is required and must be of type string.
+error: 2021-09-23 08:31:41.927 [message]: Database Connection Failed! Bad Config:  [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified
+info: 2021-09-23 08:32:12.962 [message]: C:\Users\LENOVO\Documents\MyRepository\Doc-classification\Doc-classification\src\undefined.env
+info: 2021-09-23 08:32:13.091 [message]: Development App
+error: 2021-09-23 08:32:13.508 [message]: Database Connection Failed! Bad Config:  The "config.server" property is required and must be of type string.
+error: 2021-09-23 08:32:13.509 [message]: Database Connection Failed! Bad Config:  The "config.server" property is required and must be of type string.
+error: 2021-09-23 08:32:13.514 [message]: Database Connection Failed! Bad Config:  [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified
+info: 2021-09-23 08:32:38.477 [message]: C:\Users\LENOVO\Documents\MyRepository\Doc-classification\Doc-classification\src\undefined.env
+info: 2021-09-23 08:32:38.608 [message]: Development App
+info: 2021-09-23 08:32:38.994 [message]: API listening at http://localhost:undefined
+error: 2021-09-23 08:32:38.996 [message]: Database Connection Failed! Bad Config:  The "config.server" property is required and must be of type string.
+error: 2021-09-23 08:32:38.997 [message]: Database Connection Failed! Bad Config:  The "config.server" property is required and must be of type string.
+error: 2021-09-23 08:32:38.999 [message]: Database Connection Failed! Bad Config:  [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified
+info: 2021-09-23 08:39:03.031 [message]: C:\Users\LENOVO\Documents\MyRepository\Doc-classification\Doc-classification\src\undefined.env
+info: 2021-09-23 08:39:03.261 [message]: Development App
+info: 2021-09-23 08:39:08.141 [message]: C:\Users\LENOVO\Documents\MyRepository\Doc-classification\Doc-classification\src\undefined.env
+info: 2021-09-23 08:39:08.363 [message]: Development App
+info: 2021-09-23 08:39:08.998 [message]: API listening at http://localhost:undefined
+error: 2021-09-23 08:39:09.000 [message]: Database Connection Failed! Bad Config:  The "config.server" property is required and must be of type string.
+error: 2021-09-23 08:39:09.001 [message]: Database Connection Failed! Bad Config:  The "config.server" property is required and must be of type string.
+error: 2021-09-23 08:39:09.005 [message]: Database Connection Failed! Bad Config:  [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified
+info: 2021-09-23 08:39:15.712 [message]: C:\Users\LENOVO\Documents\MyRepository\Doc-classification\Doc-classification\src\undefined.env
+info: 2021-09-23 08:39:15.870 [message]: Development App
+info: 2021-09-23 08:39:21.749 [message]: C:\Users\LENOVO\Documents\MyRepository\Doc-classification\Doc-classification\src\undefined.env
+info: 2021-09-23 08:39:21.893 [message]: Development App
+info: 2021-09-23 08:39:24.092 [message]: C:\Users\LENOVO\Documents\MyRepository\Doc-classification\Doc-classification\src\undefined.env
+info: 2021-09-23 08:39:24.225 [message]: Development App
+info: 2021-09-23 08:39:25.652 [message]: C:\Users\LENOVO\Documents\MyRepository\Doc-classification\Doc-classification\src\undefined.env
+info: 2021-09-23 08:39:25.785 [message]: Development App
+info: 2021-09-23 08:39:26.167 [message]: API listening at http://localhost:undefined
+error: 2021-09-23 08:39:26.169 [message]: Database Connection Failed! Bad Config:  The "config.server" property is required and must be of type string.
+error: 2021-09-23 08:39:26.170 [message]: Database Connection Failed! Bad Config:  The "config.server" property is required and must be of type string.
+error: 2021-09-23 08:39:26.172 [message]: Database Connection Failed! Bad Config:  [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified

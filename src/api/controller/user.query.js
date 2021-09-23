@@ -1,4 +1,4 @@
-const {poolPg} = require('../db')
+const {poolPg} = require('../../db')
 
 module.exports = {
     checkUser: async (channel_id, unit, key) => {

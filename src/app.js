@@ -32,7 +32,7 @@ app.get('/', (req, res) => {
 ;
   const {
     user
-     } = require('./router');
+     } = require('./api/routes/');
 
 app.use('/api/v1', user);
 

@@ -1,0 +1,15 @@
+error: 2021-09-23 08:31:41.923 [message]: Database Connection Failed! Bad Config:  The "config.server" property is required and must be of type string.
+error: 2021-09-23 08:31:41.924 [message]: Database Connection Failed! Bad Config:  The "config.server" property is required and must be of type string.
+error: 2021-09-23 08:31:41.927 [message]: Database Connection Failed! Bad Config:  [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified
+error: 2021-09-23 08:32:13.508 [message]: Database Connection Failed! Bad Config:  The "config.server" property is required and must be of type string.
+error: 2021-09-23 08:32:13.509 [message]: Database Connection Failed! Bad Config:  The "config.server" property is required and must be of type string.
+error: 2021-09-23 08:32:13.514 [message]: Database Connection Failed! Bad Config:  [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified
+error: 2021-09-23 08:32:38.996 [message]: Database Connection Failed! Bad Config:  The "config.server" property is required and must be of type string.
+error: 2021-09-23 08:32:38.997 [message]: Database Connection Failed! Bad Config:  The "config.server" property is required and must be of type string.
+error: 2021-09-23 08:32:38.999 [message]: Database Connection Failed! Bad Config:  [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified
+error: 2021-09-23 08:39:09.000 [message]: Database Connection Failed! Bad Config:  The "config.server" property is required and must be of type string.
+error: 2021-09-23 08:39:09.001 [message]: Database Connection Failed! Bad Config:  The "config.server" property is required and must be of type string.
+error: 2021-09-23 08:39:09.005 [message]: Database Connection Failed! Bad Config:  [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified
+error: 2021-09-23 08:39:26.169 [message]: Database Connection Failed! Bad Config:  The "config.server" property is required and must be of type string.
+error: 2021-09-23 08:39:26.170 [message]: Database Connection Failed! Bad Config:  The "config.server" property is required and must be of type string.
+error: 2021-09-23 08:39:26.172 [message]: Database Connection Failed! Bad Config:  [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified
