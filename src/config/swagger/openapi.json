@@ -14,7 +14,7 @@
   },
   "servers": [
       {
-      "url": "https://{env}.tamanbermain.com/api/v1",
+      "url": "https://{env}.bukatoko.com/api/v1",
       "variables": {
           "env":{
               "description": "Server Environtment",
